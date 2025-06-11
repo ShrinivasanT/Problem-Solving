@@ -8,7 +8,7 @@ import sys
 
 def reverseArray(a):
     # supposed to be with logic using for loop and -1 iteration but this works better
-    ret urn reversed(a)
+    return reversed(a)
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
